@@ -1,0 +1,26 @@
+body{
+    font-family: 'Sintony', sans-serif;
+    color: #5c6369;
+}
+ul, li{
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.menu{
+display: flex;
+justify-content: space-between ;
+}
+
+.menu__item {
+    
+    font-weight: 700;
+    font-size: 14px;
+    color: #2c465a;
+    /* text-transform: uppercase; */
+}
+/* nav{
+    display: flex;
+    justify-content: space-between;
+} */
