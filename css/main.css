@@ -22,20 +22,20 @@ body{
 
 .logo{
     position: relative;
-    padding-right: 12px;
+    padding-left: 12px;
     padding-bottom: 3px;
     margin-right: 70px;
     font-weight: 700;
     font-size: 22px;
     color: #000;
-    /* background-color: aqua; */
     line-height: 1;
+    /* outline: 1px solid red; */
 }
 
 .logo::after{
     position: absolute;
-    right: 0;
-    bottom: 0;
+    left: 0;
+    bottom: 13px;
     content: "";
     display: block;
     width: 8px;
@@ -44,27 +44,40 @@ body{
     border-radius: 50%;
 }
 
-
-.header-nav{
-    display: flex;
-    justify-content: space-between;
-}
+/* Navigation */
 
 .navigation__list{
     display: flex;
     column-gap: 50px;
     font-weight: 500;
-    font-style: 14px;
+    font-size: 14px;
     
 }
 
+.navigation-list-link{
+color: #000;
+}
 
 
 /* components */
+
 .modal-btn{
+    
+    /* display: block;
     text-transform: uppercase;
     font-weight: 600;
     font-size: 12px;
     line-height: 1.333;
     letter-spacing: 0.09;
+    border: 10%; */
+    /* background-color: #fff; */
+    
+}
+
+.address{
+    font-weight: 500;
+    font-size: 14px;
+    color: #000;
+    margin-right: 50px;
+    margin-left: 50px;
 }
