@@ -6,22 +6,24 @@ body{
     color: #000;
 }
 
-.container {
+.header .container {
+    align-items: center;
     outline: 1px solid rgb(49, 75, 7);
     display: flex;
-    max-width: 1230px;
-    padding: 0 30px;
+    max-width: 1200px;
+    padding: 0 15px;
     margin: 0 auto;
 }
 /* Header */
 .header{
     padding-top: 15px;
+    padding-bottom: 15px;
     background-color: #f1f1f1;
     
 }
 
 
-.logo{
+.header .logo{
     position: relative;
     padding-left: 12px;
     padding-bottom: 3px;
@@ -67,17 +69,21 @@ color: #000;
 /* components */
 
 .modal-btn{
-    border: 0;
-        border-radius: 10px;
-        background: #ccc;
-        margin: 0 auto;
-        appearance: none;
-            border: 0;
-            border-radius: 5px;
-            background: #4676D7;
-            color: #fff;
-            padding: 8px 16px;
-            font-size: 16px;
+    width: 160px;
+    height: 40px;
+    
+    border-radius: 25px;
+    margin: 0 auto;
+    appearance: none;
+    
+    border: 0;   
+    background:#4676D7;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    line-height: 1.333;
+    padding: 8px 16px;
+    font-size: 12px;
+    letter-spacing: 0.09em;
         
 }
 .modal-btn:focus {
