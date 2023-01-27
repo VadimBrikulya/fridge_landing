@@ -88,7 +88,7 @@ color: #000;
     font-weight: 400;
     line-height: 1.333;
     padding: 1px 6px;
-    font-size: 12px;
+    font-size: 14px;
     letter-spacing: 0.09em;
         
 }
@@ -115,6 +115,7 @@ color: #000;
     /* background-size: contain; */
     /* background-repeat:no-repeat; */
     padding-left: 100px;
+    padding-right: 100px;
     padding-top: 100px;
     padding-bottom: 206px;
 }
@@ -144,7 +145,16 @@ color: #000;
     letter-spacing: 0.02em;
     /* color: #9da4bd; */
 }
+/* .button__hero{
+    
+    margin-top: 10px;
+} */
 
+.button{
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
 /* services */
 
 .services {
