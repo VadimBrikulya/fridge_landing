@@ -203,14 +203,14 @@ color: #000;
 }
 
 
-.services__card-img {
+/* .services__card-img {
 
-}
-
-
+} */
 
 
-/* ========================================================== */
+
+
+/* ============================information============================== */
 .information{
     padding-top: 10px;
     padding-bottom: 30px;
@@ -237,6 +237,7 @@ color: #000;
 }
 .description-section__list{
     display: flex;
+    column-gap: 30px;
     justify-content: center;
 }
 
