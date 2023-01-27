@@ -148,7 +148,8 @@ color: #000;
 /* services */
 
 .services {
-    padding: 90px 0;
+    padding-top: 90px;
+    padding-bottom: 20px;
     background-color: #f1f1f1;
 }
 
@@ -200,17 +201,24 @@ color: #000;
 
 
 /* ========================================================== */
+.information{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
 
 .information__title{
     font-size: 30px;
     text-align: center;
 }
 .information__list{
-    text-align: center;
+    padding-bottom: 30px;
+    column-gap: 30px;
+    /* text-align: center; */
     display: flex;
-    border: 1px solid red;
+
+    /* border: 1px solid red; */
     /* justify-content: center; */
-    flex-direction: column;
+    /* flex-direction: column; */
 }
 
 .description-section__work{
