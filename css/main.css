@@ -209,19 +209,23 @@ color: #000;
 
 /* ============================information============================== */
 .information{
+    border: 1px solid rgb(227, 227, 227);
     padding-top: 10px;
     padding-bottom: 30px;
 }
 
 .information__title{
     font-size: 30px;
-    text-align: center;
+    /* text-align: center; */
 }
 .information__list{
-    padding-bottom: 30px;
-    column-gap: 30px;
-    /* text-align: center; */
     display: flex;
+    column-gap: 30px;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 30px;
+        
+    
 
     /* border: 1px solid red; */
     /* justify-content: center; */
@@ -235,18 +239,17 @@ color: #000;
 }
 .description-section__list {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);    
+    grid-template-columns: repeat(6, 1fr);    
     grid-gap: 1rem;
     border-radius: 3px;
-    border: 1px solid #eee;
+    /* border: 1px solid #eee; */
+    margin-bottom: 30px;
+    margin-top: 30px;
     /* background-color: #fff; */
     
 }
 
-.logo-img{
-    
-    
-}
+
 .image__list:focus,
 .image__list:hover {
     outline: none;
@@ -259,6 +262,14 @@ color: #000;
     align-items: center;
     justify-content: center;
     border-radius: 3px;
-    border: 1px solid #eee;
+    border: 1px solid #eee#eee;
     /* background-color: rgb(239, 239, 239);        */
+}
+
+/* ------------------------reviews-------------------------------- */
+
+.reviews{
+    border: 1px solid rgb(227, 227, 227);
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
