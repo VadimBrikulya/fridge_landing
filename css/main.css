@@ -176,20 +176,20 @@ color: #000;
 } */
 
 .services__list {
-    display: flex;
-    column-gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
     justify-content: center;
 
-    /* border: 1px solid rgb(0, 0, 0); */
+    
 
 }
 
 .services__list-card {
-    border: 1px solid rgb(214, 213, 213);
+    /* border: 1px solid rgb(133, 133, 133); */
 }
 
 .services__card {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 
 }
 .services__card-title{
