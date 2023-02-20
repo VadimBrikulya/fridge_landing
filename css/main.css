@@ -184,9 +184,10 @@ color: #000;
 
 }
 
-.services__list-card {
-    /* border: 1px solid rgb(133, 133, 133); */
-}
+
+/* .services__list-card {
+    border: 1px solid rgb(133, 133, 133);
+} */
 
 .services__card {
     margin-bottom: 10px;
@@ -203,7 +204,14 @@ color: #000;
 /* .services__card-img {
 
 } */
-
+.services__card-img:hover,
+.services__card-img:focus {
+    cursor: pointer;
+    outline: none;
+    background-color: rgb(208, 208, 208);
+    box-shadow: 0 0 0 2px #cbd6ee;
+    border-radius: 20%;
+}
 
 
 
@@ -273,9 +281,26 @@ color: #000;
 
 /* -------------------------------Footer------------------------------------- */
 .footer{
-    padding-top: 15px;
-    padding-bottom: 15px;
-    background-color: #f1f1f1;
-        font-size: 20px;
-    
+    background: #0467ba;
+    padding: 40px 0;
+    color: #fff;    
+}
+
+/* .footer__contacts{
+    display: grid;
+    justify-content: center;
+} */
+
+/* .footer__address{
+    display: flex;
+} */
+
+.footer-box{
+display: flex;
+column-gap: 30px;
+}
+
+.footer-item-1__text{    
+    font-size: 30px;
+    font-weight: 600;
 }
